@@ -8,9 +8,7 @@
      "extends": "akinon-eslint-config",
     ],
 ```
-Plus ; 
-
-example git hooks file ; 
+**example git hooks file ;** 
 ```
 STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep ".jsx\{0,1\}$")
 ESLINT="$(git rev-parse --show-toplevel)/node_modules/.bin/eslint"
