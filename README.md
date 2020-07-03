@@ -4,9 +4,11 @@
     
 .**eslintrc**
 ```
+...
   "extends": [
      "extends": "akinon-eslint-config",
     ],
+ ...
 ```
 **example git hooks file ;** 
 ```
